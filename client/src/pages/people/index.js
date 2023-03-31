@@ -4,7 +4,7 @@ function People() {
   const [parentNamePresentPairs, setParentNamePresentPairs] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:9000/api/people')
+    fetch('https://media-demo.onrender.com/api/people')
       .then((res) => res.json())
       .then((data) => setParentNamePresentPairs(data))
       .catch((err) => console.error('Error fetching data:', err));

@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  padding: 1em;
+}
+
+nav ul {
+  display: contents;
+  list-style: none;
+}
+
+nav ul li{
+  padding: 1em;
+}
+
+nav a{
+  color: white;
+}
+
+ul{
+  display: contents;
+  list-style: none;
+}
+
+/* react autosuggest*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+  justify-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+.react-autosuggest__container {
+  position: relative;
+  width: 50%;
+  margin: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-autosuggest__input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.react-autosuggest__suggestions-container {
+  display: none;
+}
+
+.react-autosuggest__suggestions-container--open {
+  display: block;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: scroll;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.react-autosuggest__suggestions-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.react-autosuggest__suggestion {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #ddd;
+}
+
+.suggestion-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.parent-present {
+  color: black;
+}
+
+.short-bio {
+  font-size: 0.8rem;
+  color: #333333;
+}
+/*select block*/
+.my-select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  width: 20%;
+  margin: 16px;
+}
+
+/*add button*/
+.add-searchbox-btn {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 16px;
+  cursor: pointer;
+  margin: 16px;
+}
+
